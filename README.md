@@ -10,6 +10,6 @@ arduino-cli board list
 
 arduino-cli compile --fqbn arduino:avr:mega /Users/fermin/Desktop/micros/rfid/rfid.ino
 
-arduino-cli upload --fqbn arduino:avr:mega -p /dev/tty.usbmodem141201 /Users/fermin/Desktop/micros/rfid/rfid.ino
+arduino-cli upload --fqbn arduino:avr:mega -p /dev/tty.usbmodem142401 /Users/fermin/Desktop/micros/rfid/rfid.ino
 
-arduino-cli monitor -p /dev/tty.usbmodem141201 -c baudrate=9600
+arduino-cli monitor -p /dev/tty.usbmodem142401 -c baudrate=9600
